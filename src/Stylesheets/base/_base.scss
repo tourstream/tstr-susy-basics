@@ -1,0 +1,19 @@
+/* the basic susy grid configuration */
+
+$susy: (
+  columns: $total-columns,
+  container: $container-width,
+  column-width: 10em, // ToDo move to config
+  gutter: $gutter-width,
+  grid-padding: $grid-padding,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+  global-box-sizing: border-box,
+  debug: (
+    image: hide, // change to debug
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  )
+);

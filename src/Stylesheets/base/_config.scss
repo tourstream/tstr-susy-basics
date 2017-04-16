@@ -1,0 +1,21 @@
+/* all color, grid, button, font sizes variables */
+
+// susy grid variables
+$small-grid: 6;
+$large-grid: 12;
+$container-min-width: 20em;
+$container-width: 80em;
+$min-columns: $small-grid;
+$total-columns: $large-grid;
+$gutter-width: 1/4;
+$grid-padding: $gutter-width;
+$breakpoint-s-min: 30em;
+$breakpoint-m-min: 48em;
+$breakpoint-l-min: 61em;
+$breakpoint-xl-min: $container-width;
+$breakpoints: (
+  "small": (min-width: $breakpoint-s-min),
+  "medium": (min-width: $breakpoint-m-min),
+  "large": (min-width: $breakpoint-l-min),
+  "huge": (min-width: $breakpoint-xl-min),
+);

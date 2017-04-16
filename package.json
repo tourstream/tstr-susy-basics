@@ -1,0 +1,32 @@
+{
+  "name": "tstr-susy-basics",
+  "version": "0.0.1",
+  "description": "really basic stuff of susy for tourstream projects",
+  "keywords": [
+    "scss",
+    "susy"
+  ],
+  "author": "Tourstream.eu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tourstream/tstr-susy-basics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tourstream/tstr-susy-basics/issues"
+  },
+  "homepage": "https://github.com/tourstream/tstr-susy-basics#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "stylelint": "^7.10.1",
+    "stylelint-config-wordpress": "^9.1.1"
+  },
+  "scripts": {
+    "stylelint": "stylelint src/**/*.scss src/*.scss",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 6",
+    "npm": ">= 3"
+  }
+}
